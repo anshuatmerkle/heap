@@ -107,7 +107,7 @@ export class MaxHeap {
     }
 
     printHeap(): void {
-        for(let i = 0; i < this.length; i++) {
+        for (let i = 0; i < this.length; i++) {
             process.stdout.write(` ${this.heap[i]} `);
         }
         console.log();
